@@ -7,6 +7,14 @@ class RecipeAppTheme {
       fontSize: 15.0,
       fontWeight: FontWeight.w700,
     ),
+    headline1: GoogleFonts.openSans(
+      fontSize: 13.0,
+      fontWeight: FontWeight.w400,
+    ),
+    headline2: GoogleFonts.openSans(
+      fontSize: 20.0,
+      fontWeight: FontWeight.w700,
+    ),
   );
 
   static ThemeData dark() {

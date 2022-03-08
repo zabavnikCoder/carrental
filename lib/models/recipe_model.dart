@@ -1,60 +1,62 @@
-class Recipe {
-  String label;
-  String imageUrl;
+//! khinkali recipe
 
-  int servings;
-  List<Ingredient> ingredients;
+// class Recipe {
+//   String label;
+//   String imageUrl;
 
-  Recipe(this.label, this.imageUrl, this.servings, this.ingredients);
+//   int servings;
+//   List<Ingredient> ingredients;
 
-  static List<Recipe> samples = [
-    Recipe(
-      'Khinkali',
-      'assets/khinkali.jpg',
-      2,
-      [
-        Ingredient(2.0, 'xorci', 'khakhvi'),
-      ],
-    ),
-    Recipe(
-      'Khinkali2',
-      'assets/khinkali.jpg',
-      2,
-      [
-        Ingredient(2.0, 'xorci', 'khakhvi'),
-      ],
-    ),
-    Recipe(
-      'Khinkali3',
-      'assets/khinkali.jpg',
-      2,
-      [
-        Ingredient(2.0, 'xorci', 'khakhvi'),
-      ],
-    ),
-    Recipe(
-      'Khinkali4',
-      'assets/khinkali.jpg',
-      2,
-      [
-        Ingredient(2.0, 'xorci', 'khakhvi'),
-      ],
-    ),
-    Recipe(
-      'Khinkali5',
-      'assets/khinkali.jpg',
-      2,
-      [
-        Ingredient(2.0, 'xorci', 'khakhvi'),
-      ],
-    ),
-  ];
-}
+//   Recipe(this.label, this.imageUrl, this.servings, this.ingredients);
 
-class Ingredient {
-  double quantity;
-  String measure;
-  String name;
+//   static List<Recipe> samples = [
+//     Recipe(
+//       'Khinkali',
+//       'assets/khinkali.jpg',
+//       2,
+//       [
+//         Ingredient(2.0, 'xorci', 'khakhvi'),
+//       ],
+//     ),
+//     Recipe(
+//       'Khinkali2',
+//       'assets/khinkali.jpg',
+//       2,
+//       [
+//         Ingredient(2.0, 'xorci', 'khakhvi'),
+//       ],
+//     ),
+//     Recipe(
+//       'Khinkali3',
+//       'assets/khinkali.jpg',
+//       2,
+//       [
+//         Ingredient(2.0, 'xorci', 'khakhvi'),
+//       ],
+//     ),
+//     Recipe(
+//       'Khinkali4',
+//       'assets/khinkali.jpg',
+//       2,
+//       [
+//         Ingredient(2.0, 'xorci', 'khakhvi'),
+//       ],
+//     ),
+//     Recipe(
+//       'Khinkali5',
+//       'assets/khinkali.jpg',
+//       2,
+//       [
+//         Ingredient(2.0, 'xorci', 'khakhvi'),
+//       ],
+//     ),
+//   ];
+// }
 
-  Ingredient(this.quantity, this.measure, this.name);
-}
+// class Ingredient {
+//   double quantity;
+//   String measure;
+//   String name;
+
+//   Ingredient(this.quantity, this.measure, this.name);
+// }
