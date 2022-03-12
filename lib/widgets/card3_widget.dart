@@ -34,11 +34,11 @@ class Card3 extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Icon(
-                    Icons.book,
+                    Icons.car_rental_rounded,
                     size: 40,
                   ),
                   const SizedBox(height: 10),
-                  Text('Recipe Trends',
+                  Text('More cars',
                       style: RecipeAppTheme.darkTextTheme.bodyText1),
                 ],
               ),

@@ -6,17 +6,17 @@ class Card1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const String title = 'Coffee';
-    const String description = 'Learn to make the perfect coffee';
-    const String chef = 'Merab Tevdorashvili';
+    const String title = 'Just Drive';
+    const String description = 'Trust your SPEED';
+    const String chef = 'The Best or Nothing';
 
     return Center(
       child: Container(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(8),
         constraints: const BoxConstraints.expand(width: 350, height: 450),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/coffee.png'),
+            image: AssetImage('assets/FordGt500.png'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(

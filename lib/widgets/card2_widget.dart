@@ -12,7 +12,7 @@ class Card2 extends StatelessWidget {
         constraints: const BoxConstraints.expand(width: 350, height: 450),
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/coffee.png'),
+            image: AssetImage('assets/Lamborghini.jpg'),
             fit: BoxFit.cover,
           ),
           borderRadius: BorderRadius.all(
@@ -23,27 +23,28 @@ class Card2 extends StatelessWidget {
           children: [
             //Call author information
             const AuthorCard(
-              authorName: 'Natalie',
+              authorName: 'Jaba',
               title: 'Flutter Dev',
-              imageProvider: AssetImage('assets/profile.jpg'),
+              imageProvider: AssetImage('assets/logoCarPicture.jpg'),
             ),
             Expanded(
               child: Stack(
                 children: [
                   Positioned(
                     child: Text(
-                      'Recipe',
+                      'Car rent company',
                       style: RecipeAppTheme.darkTextTheme.headline2,
                     ),
                     bottom: 16,
                     right: 16,
                   ),
-                  Positioned(
+                  const Positioned(
                     child: RotatedBox(
                       quarterTurns: 3,
                       child: Text(
-                        'Application',
-                        style: RecipeAppTheme.darkTextTheme.headline2,
+                        'Do Not count horses just Drive',
+                        style:TextStyle(color:Colors.blue,fontSize: 25),
+                        
                       ),
                     ),
                     bottom: 50,

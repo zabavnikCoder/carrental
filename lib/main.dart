@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Example',
       theme: theme,
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

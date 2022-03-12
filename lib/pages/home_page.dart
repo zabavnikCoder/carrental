@@ -4,7 +4,7 @@ import 'package:recipe/widgets/card2_widget.dart';
 import 'package:recipe/widgets/card3_widget.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -49,9 +49,9 @@ class _HomePageState extends State<HomePage> {
         onTap: _onItemTapped,
         items: const [
           BottomNavigationBarItem(
-              icon: Icon(Icons.free_breakfast), label: 'Card1'),
-          BottomNavigationBarItem(icon: Icon(Icons.plumbing), label: 'Card2'),
-          BottomNavigationBarItem(icon: Icon(Icons.edit), label: 'Card3'),
+              icon: Icon(Icons.car_rental), label: 'booking'),
+          BottomNavigationBarItem(icon: Icon(Icons.car_rental_outlined), label: 'booking'),
+          BottomNavigationBarItem(icon: Icon(Icons.library_books_outlined), label: 'our catalog'),
         ],
       ),
     );
